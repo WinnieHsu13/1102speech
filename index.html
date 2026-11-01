@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>互動學習平台</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+      background: #f4f6fa;
+      color: #26344a;
+    }
+
+    header {
+      background: linear-gradient(135deg, #243653, #42618a);
+      color: white;
+      text-align: center;
+      padding: 65px 20px 75px;
+    }
+
+    header .subtitle {
+      font-size: 13px;
+      letter-spacing: 4px;
+      opacity: 0.8;
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin: 18px 0 12px;
+      letter-spacing: 3px;
+    }
+
+    header p {
+      font-size: 16px;
+      color: #dce7f5;
+      margin: 0;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: -30px auto 0;
+      padding: 0 22px 60px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin: 45px 0 28px;
+    }
+
+    .section-title h2 {
+      font-size: 23px;
+      margin-bottom: 8px;
+    }
+
+    .section-title p {
+      color: #7b8798;
+      font-size: 14px;
+    }
+
+    .activities {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: white;
+      border-radius: 16px;
+      padding: 30px 24px;
+      border: 1px solid #e5eaf1;
+      box-shadow: 0 5px 18px rgba(35, 53, 80, 0.06);
+      transition: 0.25s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 28px rgba(35, 53, 80, 0.12);
+      border-color: #9aafcb;
+    }
+
+    .icon {
+      font-size: 35px;
+      margin-bottom: 18px;
+    }
+
+    .card h3 {
+      font-size: 19px;
+      margin: 0 0 10px;
+    }
+
+    .card p {
+      color: #7b8798;
+      font-size: 14px;
+      line-height: 1.7;
+      min-height: 48px;
+    }
+
+    .enter {
+      display: inline-block;
+      margin-top: 12px;
+      color: #42618a;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #9aa4b2;
+      font-size: 12px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 50px 15px 65px;
+      }
+
+      header h1 {
+        font-size: 29px;
+      }
+
+      main {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="subtitle">INTERACTIVE LEARNING CENTER</div>
+    <h1>互動學習平台</h1>
+    <p>探索・挑戰・學習，讓知識變得更有趣</p>
+  </header>
+
+  <main>
+
+    <div class="section-title">
+      <h2>選擇互動教材</h2>
+      <p>點選下方活動卡片，開始你的學習挑戰</p>
+    </div>
+
+    <div class="activities">
+
+      <a class="card" href="./中大sdgs食安.html">
+        <div class="icon">🥗</div>
+        <h3>中大 SDGs 食安</h3>
+        <p>透過互動活動，探索食品安全與永續發展的知識。</p>
+        <span class="enter">進入活動 →</span>
+      </a>
+
+      <a class="card" href="./中大sdgs食安test1.html">
+        <div class="icon">🔍</div>
+        <h3>食安互動挑戰一</h3>
+        <p>體驗另一個版本的食安互動學習活動。</p>
+        <span class="enter">進入活動 →</span>
+      </a>
+
+      <a class="card" href="./中大sdgs食安test2.html">
+        <div class="icon">🧩</div>
+        <h3>食安互動挑戰二</h3>
+        <p>透過不同的互動內容，繼續探索食品安全。</p>
+        <span class="enter">進入活動 →</span>
+      </a>
+
+    </div>
+
+  </main>
+
+  <footer>
+    © 2026 互動學習平台 · Interactive Learning Center
+  </footer>
+
+</body>
+</html>
